@@ -9,7 +9,7 @@
 
         <project path="code/oai-cn5g-fed" name="oai/cn5g/oai-cn5g-fed" remote="oai-upstream" revision="refs/tags/2023.w46" />
 
-        <extend-project path="proj-top" name="proteus-cpi/repo-test-top.git" remote="github-upstream" revision="master">
+        <extend-project path="proj-top" name="proteus-cpi/repo-test-top.git" remote="github-upstream" revision="main">
                 <linkfile src="configs/build/noS1/Readme.build.noS1.md" dest="build/noS1/Readme.md"/>
                 <linkfile src="configs/build/noS1/build.sh" dest="build/noS1/build.sh"/>
         </extend-project>
