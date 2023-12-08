@@ -8,19 +8,10 @@
                 remote="github-upstream"
                 revision="main">
 
-                <linkfile src="scripts/source-me-bash-env.sh" dest="source-2-setup-env.sh" />
-                <linkfile src="misc/templates_plcaeholders/Readme.buildfolder.md"
-                        dest="build/Readme.md" />
-                <!-- 
-                In the above <linkfile/> element 'src' path is relative to the specific project top 
-                while 'dest' element is to be specified relative to the top of the project tree 
-                -->
-
         </project>
 
         <extend-project path="proj-top" name="proteus-cpi/repo-test-top"
                 remote="github-upstream" revision="main">
-                <linkfile src="configs/build/noS1/Readme.build.noS1.md" dest="build/noS1/Readme.md" />
                 <linkfile src="configs/build/noS1/build.sh" dest="build/noS1/build.sh" />
         </extend-project>
 
