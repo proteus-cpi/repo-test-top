@@ -3,6 +3,8 @@
         <!-- include all the common repositories, we just want to define the kernel -->
         <include name="common.xml"/>
 
+        <project path="proj-top" name="proteus-cpi/repo-test-top.git" remote="github" revision="main" />
+
         <project path="code/gNodeB" name="oai/openairinterface5g.git" remote="oai-upstream" revision="refs/tags/2023.w45" />
 
         <project path="code/oai-cn5g-fed" name="oai/cn5g/oai-cn5g-fed" remote="oai-upstream" revision="refs/tags/2023.w46" />
