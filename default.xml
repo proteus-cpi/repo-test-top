@@ -1,5 +1,4 @@
-<!-- XML declaration specifying version 1.0 of XML and UTF-8 character encoding -->
-?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- include all the common repositories, we just want to define the kernel -->
         <include name="common.xml"/>
