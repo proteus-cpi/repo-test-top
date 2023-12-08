@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="oai-upstream"       fetch="https://gitlab.eurecom.fr" />
+  <remote name="o5gs-upstream"      fetch="https://github.com/open5gs/open5gs.git" />
+  <remote name="github-upstream"    fetch="https://github.com" />
+  <remote name="github-ssh"         fetch="git@github.com" />
+  <remote name="origin"             fetch="https://gitlab.pilakkat.freeddns.org:8443" />
+  
+  <default revision="master" remote="origin" />
+
+</manifest>
