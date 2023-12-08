@@ -7,6 +7,7 @@
                 name="proteus-cpi/repo-test-top"
                 remote="github-upstream"
                 revision="main">
+                <copyfile src="scripts/source-me-bash-env.sh" dest="source-2-setup-env.sh" />
 
         </project>
 
